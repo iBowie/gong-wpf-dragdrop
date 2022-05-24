@@ -77,7 +77,7 @@ namespace GongSolutions.Wpf.DragDrop
         /// <param name="applyTemplate">if set to <c>true</c> then for all items the ApplyTemplate will be invoked.</param>
         /// <param name="focusVisualTarget">if set to <c>true</c> the visual target will be focused.</param>
         /// <exception cref="System.ArgumentNullException"><paramref name="dropInfo" /> is <see langword="null" /></exception>
-        /// <exception cref="System.ArgumentNullException"><paramref name="dropInfo" /> is <see langword="null" /></exception>
+        /// <exception cref="System.ArgumentNullException"><paramref name="items" /> is <see langword="null" /></exception>
         public static void SelectDroppedItems([NotNull] IDropInfo dropInfo, [NotNull] IEnumerable items, bool applyTemplate = true, bool focusVisualTarget = true)
         {
             if (dropInfo == null) throw new ArgumentNullException(nameof(dropInfo));
